@@ -1,0 +1,15 @@
+# 依赖包文件夹（体积最大，通常有几百MB）
+node_modules/
+
+# 编译/打包产物（可以通过源码重新构建，无需上传）
+dist/
+build/
+*.min.js
+*.min.css
+
+# 系统隐藏文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
